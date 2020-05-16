@@ -14,15 +14,10 @@
   <view class="usermotto">
     <text class="masked" style="text_align: center">{{motto}}</text>
     
-    <navigator data-num="1" class="navigator {{_num==1?'none':''}} {{_num==2?'none':''}} {{_num==3?'none':''}} {{_num==4?'none':''}} {{_num==5?'block':''}}" bindtap="menuClick1" url="../../packageA/pages/python/python" hover-class="navigator-hover">{{enter}}</navigator>
-   
-    <navigator style = "color: #CDB03B;" url="../../packageA/pages/prc_all/prc_all" hover-class="navigator-hover">题库刷题</navigator>
-
-   <navigator style = "color: #CDB03B; padding: 40rpx" url="../../packageA/pages/wrong_set/wrong_set" hover-class="navigator-hover">错题集</navigator>
-   
-   <navigator style = "color: #CDB03B;" url="../../packageA/pages/collection/collection" hover-class="navigator-hover">收藏夹</navigator>
-
-   
+  <navigator class="navigator"  url="../../packageA/pages/python/python" hover-class="navigator-hover">{{enter}}</navigator>
+  <navigator style = "color: #CDB03B;" url="../../packageA/pages/prc_all/prc_all" hover-class="navigator-hover">题库刷题</navigator>
+  <navigator style = "color: #CDB03B; padding: 40rpx" url="../../packageA/pages/wrong_set/wrong_set" hover-class="navigator-hover">错题集</navigator>
+  <navigator style = "color: #CDB03B;" url="../../packageA/pages/collection/collection" hover-class="navigator-hover">收藏夹</navigator>
   </view>
 </view>
-</view>
+</view> 
